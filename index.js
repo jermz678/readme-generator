@@ -28,34 +28,34 @@ const questions = [
     {
         type: 'input',
         name: 'Installation',
-     message: 'Provide installation instructions for your project'
+     message: 'Provide installation instructions for your project:'
     },
     {
         type: 'input',
         name: 'Usage',
-        message: 'Tell us how to use your project'
+        message: 'Tell us how to use your project:'
     },
     {
         type: 'input',
         name: 'Contribution',
-        message: 'Tell us how to contribute to your project'
+        message: 'Tell us how to contribute to your project:'
     },
     {
         type: 'input',
         name: 'Test',
-        message: 'Tell us how to test your project'
+        message: 'Tell us how to test your project:'
     },
     {
         type: 'checkbox',
         name: 'License',
         message: 'Choose a license',
-        choices: ['Mit', 'Apache', 'GPLv3', 'none'],
+        choices: ['MIT', 'Apache', 'GPLv3', 'none'],
         
     },
     {
         type: 'input',
         name: 'Github',
-        message: 'Enter your github username (required)' ,
+        message: 'Enter your github username: (required)' ,
         validate: (githubInput) => {
             if (githubInput) {
             return true;
@@ -99,8 +99,6 @@ function init() {
     let markdown = generateMarkdown(readmeData);
     writeToFile('./README-holder/README.md', markdown)
     })
-
-
 }
 
 // Function call to initialize app

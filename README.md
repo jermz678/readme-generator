@@ -1,42 +1,20 @@
-# t
+# README Generator
 
-  ## Description 
+## Description
+Taking user's input, we create a README.md file
 
-    t
+## Installation
 
-  
+Make sure to have Inqurirer installed
 
-  ## Table of Contents
-  * [Installation](#Installation)
-  
-  * [Usage](#Usage)
-  * [Contributing](#Contributing)
-  * [Tests](#Test)
-  * [Questions](#Questions)
-  
-  ## Installation
+## Usage
 
-  t
+Its easy to use, just use the integrated terminal for index.js and run node index.
 
-  
+Here is a video walkthrough to show you how to use it!
 
-  ## Usage
+https://drive.google.com/file/d/1E_1CIPJtVHqbOkYVlDuUAmUBtx5ue5gr/view
 
-  t
+## Questions
 
-  ## Contributing
-
-  t
-
-  ## Tests
-
-  t
-  
-  ## Questions
-
-  [Github](https://github.com/t)
-
-  Send your questions here
-
-  t
-  
+If you have any questions or tips, leave me a message on [Github](https://github.com/jermz678)

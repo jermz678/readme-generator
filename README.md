@@ -1,14 +1,14 @@
-# Readme generator
+# t
 
   ## Description 
 
-    Create a readme file with input from user
+    t
 
-  ![license](https://img.shields.io/badge/License-Mit-blue)
+  
 
   ## Table of Contents
   * [Installation](#Installation)
-  * [License](#license)
+  
   * [Usage](#Usage)
   * [Contributing](#Contributing)
   * [Tests](#Test)
@@ -16,30 +16,27 @@
   
   ## Installation
 
-  Clone the gihub repo and run with vs code.  Make sure node.js is installed
+  t
 
   
-    ## License
-
-    license : Mit
 
   ## Usage
 
-  Run using node js
+  t
 
   ## Contributing
 
-  na
+  t
 
   ## Tests
 
-  use and see if it works for you
+  t
   
   ## Questions
 
-  [Github](https://github.com/jermz678)
+  [Github](https://github.com/t)
 
   Send your questions here
 
-  jermz678@live.com
+  t
   

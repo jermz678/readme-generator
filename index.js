@@ -28,7 +28,16 @@ const questions = [
     {
         type: 'input',
         name: 'Project-title',
-        message: 'What is the Title of your Project?',
+        message: 'What is the Title of your Project? (required)',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            }
+            else {
+                console.log('')
+                return false
+            }
+        }
     },
     {
         type: 'input',
@@ -59,17 +68,37 @@ const questions = [
         type: 'checkbox',
         name: 'License',
         message: 'Choose a license',
-        choices: ['Mit', 'Apache', 'GPLv3', 'none']
+        choices: ['Mit', 'Apache', 'GPLv3', 'none'],
+        
     },
     {
         type: 'input',
         name: 'Github',
-        message: 'Enter your github username'
+        message: 'Enter your github username (required)' ,
+        validate: (githubInput) => {
+            if (githubInput) {
+            return true;
+            }
+            else {
+            console.log('')
+            return false
+            }
+        }
     },
     {
         type: 'input', 
         name: 'Email',
-        message: 'what is your email address?'
+        message: 'what is your email address? (required)',
+        validate: (emailInput) => {
+            if (emailInput) {
+            return true;
+            }
+            else {
+            console.log('')
+            return false
+            }
+        }
+
     },
     
 ];

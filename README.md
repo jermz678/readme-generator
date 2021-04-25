@@ -1,16 +1,14 @@
-# y
+# Readme generator
 
   ## Description 
 
-    undefined
+    Create a readme file with input from user
 
-  
-    ![license](https://img.shields.io/badge/License-Mit-blue)
+  ![license](https://img.shields.io/badge/License-Mit-blue)
 
   ## Table of Contents
   * [Installation](#Installation)
-  
-    * [License](#license)
+  * [License](#license)
   * [Usage](#Usage)
   * [Contributing](#Contributing)
   * [Tests](#Test)
@@ -18,7 +16,7 @@
   
   ## Installation
 
-  y
+  Clone the gihub repo and run with vs code.  Make sure node.js is installed
 
   
     ## License
@@ -27,22 +25,21 @@
 
   ## Usage
 
-  y
+  Run using node js
 
   ## Contributing
 
-  y
+  na
 
   ## Tests
 
-  y
+  use and see if it works for you
   
   ## Questions
 
-  https://github.com/jermz678
+  [Github](https://github.com/jermz678)
 
   Send your questions here
 
   jermz678@live.com
-
-
+  
